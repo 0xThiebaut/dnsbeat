@@ -1,0 +1,5 @@
+= Dnsbeat Docs
+
+Welcome to the Dnsbeat documentation.
+
+

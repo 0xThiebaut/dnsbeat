@@ -1,0 +1,55 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "rHUEtTqywMtKofuCOZa6z7rrixg=",
+			"path": "github.com/miekg/dns",
+			"revision": "eda228adcff6f7a80ddaf1d265209a10a4f51ca9",
+			"revisionTime": "2019-12-20T14:31:18Z"
+		},
+		{
+			"checksumSHA1": "Cw704DdvIZy3R2TAMvEHCeOKMYc=",
+			"path": "golang.org/x/crypto/ed25519",
+			"revision": "53104e6ec876ad4e22ad27cce588b01392043c1b",
+			"revisionTime": "2019-12-27T15:16:44Z"
+		},
+		{
+			"checksumSHA1": "0JTAFXPkankmWcZGQJGScLDiaN8=",
+			"path": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"revision": "53104e6ec876ad4e22ad27cce588b01392043c1b",
+			"revisionTime": "2019-12-27T15:16:44Z"
+		},
+		{
+			"checksumSHA1": "OGo/hqWG1eVOzH6WSHSWDunSsJA=",
+			"path": "golang.org/x/net/bpf",
+			"revision": "c0dbc17a35534bf2e581d7a942408dc936316da4",
+			"revisionTime": "2019-11-08T21:16:37Z"
+		},
+		{
+			"checksumSHA1": "hICda1Ja7OxLREpzt90Snf+x5jM=",
+			"path": "golang.org/x/net/internal/socket",
+			"revision": "c0dbc17a35534bf2e581d7a942408dc936316da4",
+			"revisionTime": "2019-11-08T21:16:37Z"
+		},
+		{
+			"checksumSHA1": "6n0QvaqovXx751aHfoBMKtz2DfA=",
+			"path": "golang.org/x/net/ipv4",
+			"revision": "c0dbc17a35534bf2e581d7a942408dc936316da4",
+			"revisionTime": "2019-11-08T21:16:37Z"
+		},
+		{
+			"checksumSHA1": "BydXsvu20Si1EFfFne2W59rApSA=",
+			"path": "golang.org/x/net/ipv6",
+			"revision": "c0dbc17a35534bf2e581d7a942408dc936316da4",
+			"revisionTime": "2019-11-08T21:16:37Z"
+		},
+		{
+			"checksumSHA1": "v2Tbt1fdDRnT9rNCTKft+asUXaQ=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "04cbcbbfeed8aa0b2b010b2ddab558e9f717fd3e",
+			"revisionTime": "2019-12-28T20:33:25Z"
+		}
+	],
+	"rootPath": "github.com/0xThiebaut/dnsbeat"
+}

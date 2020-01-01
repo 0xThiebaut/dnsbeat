@@ -1,0 +1,5 @@
+dnsbeat
+Copyright 2019 Maxime Thiebaut
+
+This product includes software developed by The Apache Software
+Foundation (http://www.apache.org/).

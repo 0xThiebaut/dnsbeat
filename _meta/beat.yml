@@ -1,0 +1,22 @@
+################### Dnsbeat Configuration Example #########################
+
+############################# Dnsbeat ######################################
+
+dnsbeat:
+  zones:
+    - fqdn: "example.com."
+      bind: 192.168.0.1
+      nameservers:
+        - hostname: 192.168.0.100:53
+          tsig:
+            secret: "CAFEBABE=="
+            algorithm: HmacSHA512
+            fudge: 5m
+        - hostname: 192.168.0.101:53
+      timeouts:
+        dial: 2s
+        read: 5s
+      period: 5m
+    - fqdn: "file.example.com."
+      zonefile: "/path/to/my_zone.txt"
+      period: 5m

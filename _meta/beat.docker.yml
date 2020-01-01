@@ -1,0 +1,13 @@
+################### Dnsbeat Configuration Example #########################
+
+############################# Dnsbeat ######################################
+
+dnsbeat:
+  zones:
+    - fqdn: "example.com."
+      nameservers:
+        - hostname: dns:53
+      timeouts:
+        dial: 2s
+        read: 5s
+      period: 5m
