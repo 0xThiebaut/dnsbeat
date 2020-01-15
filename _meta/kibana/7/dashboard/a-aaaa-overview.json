@@ -1,0 +1,994 @@
+{
+  "objects": [
+    {
+      "attributes": {
+        "description": "Monitor all A and AAAA entries.",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "optionsJSON": {
+          "hidePanelTitles": false,
+          "useMargins": true
+        },
+        "panelsJSON": [
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 16,
+              "i": "2e5656be-886a-487d-9bee-98f960a89cce",
+              "w": 26,
+              "x": 0,
+              "y": 0
+            },
+            "panelIndex": "2e5656be-886a-487d-9bee-98f960a89cce",
+            "panelRefName": "panel_0",
+            "version": "7.5.1"
+          },
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 8,
+              "i": "3689c962-5213-4129-bff3-c34b4885a10b",
+              "w": 13,
+              "x": 26,
+              "y": 0
+            },
+            "panelIndex": "3689c962-5213-4129-bff3-c34b4885a10b",
+            "panelRefName": "panel_1",
+            "version": "7.5.1"
+          },
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 8,
+              "i": "e21b9e0d-22ab-4ca3-9e9d-2accb82cf6ee",
+              "w": 13,
+              "x": 26,
+              "y": 8
+            },
+            "panelIndex": "e21b9e0d-22ab-4ca3-9e9d-2accb82cf6ee",
+            "panelRefName": "panel_2",
+            "version": "7.5.1"
+          },
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 17,
+              "i": "2631591c-9b8c-4c25-a255-1a0b2dd5b0c4",
+              "w": 13,
+              "x": 0,
+              "y": 16
+            },
+            "panelIndex": "2631591c-9b8c-4c25-a255-1a0b2dd5b0c4",
+            "panelRefName": "panel_3",
+            "version": "7.5.1"
+          },
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 17,
+              "i": "749a0f67-e1c2-4155-a96a-25446a611da1",
+              "w": 13,
+              "x": 13,
+              "y": 16
+            },
+            "panelIndex": "749a0f67-e1c2-4155-a96a-25446a611da1",
+            "panelRefName": "panel_4",
+            "version": "7.5.1"
+          },
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 17,
+              "i": "d691c2fc-2e14-45ad-a017-eb4f4c6275d0",
+              "w": 13,
+              "x": 26,
+              "y": 16
+            },
+            "panelIndex": "d691c2fc-2e14-45ad-a017-eb4f4c6275d0",
+            "panelRefName": "panel_5",
+            "version": "7.5.1"
+          },
+          {
+            "embeddableConfig": {},
+            "gridData": {
+              "h": 29,
+              "i": "23cc4055-885b-4c9a-8348-6df37aca78e5",
+              "w": 39,
+              "x": 0,
+              "y": 33
+            },
+            "panelIndex": "23cc4055-885b-4c9a-8348-6df37aca78e5",
+            "panelRefName": "panel_6",
+            "version": "7.5.1"
+          }
+        ],
+        "timeRestore": false,
+        "title": "[Dnsbeat A/AAAA] Overview",
+        "version": 1
+      },
+      "id": "33f672b0-37bc-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "dashboard": "7.3.0"
+      },
+      "references": [
+        {
+          "id": "2ad733a0-37bb-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_0",
+          "type": "visualization"
+        },
+        {
+          "id": "76bb7f00-37bc-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_1",
+          "type": "visualization"
+        },
+        {
+          "id": "932adaa0-37bc-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_2",
+          "type": "visualization"
+        },
+        {
+          "id": "d19079e0-37bb-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_3",
+          "type": "visualization"
+        },
+        {
+          "id": "77590210-37bd-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_4",
+          "type": "visualization"
+        },
+        {
+          "id": "b750bd90-37bd-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_5",
+          "type": "visualization"
+        },
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "panel_6",
+          "type": "search"
+        }
+      ],
+      "type": "dashboard",
+      "updated_at": "2020-01-15T17:39:55.872Z",
+      "version": "WzEzMiwxXQ=="
+    },
+    {
+      "attributes": {
+        "description": "The count of unique entries per A and AAAA type over time.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "savedSearchRefName": "search_0",
+        "title": "Unique Entry Count Per Type Over Time [Dnsbeat A/AAAA]",
+        "uiStateJSON": {},
+        "version": 1,
+        "visState": {
+          "aggs": [
+            {
+              "enabled": true,
+              "id": "1",
+              "params": {
+                "customLabel": "Entries",
+                "field": "event.original"
+              },
+              "schema": "metric",
+              "type": "cardinality"
+            },
+            {
+              "enabled": true,
+              "id": "2",
+              "params": {
+                "customLabel": "Timestamp",
+                "drop_partials": false,
+                "extended_bounds": {},
+                "field": "@timestamp",
+                "interval": "auto",
+                "min_doc_count": 1,
+                "scaleMetricValues": false,
+                "timeRange": {
+                  "from": "now-15m",
+                  "to": "now"
+                },
+                "useNormalizedEsInterval": true
+              },
+              "schema": "segment",
+              "type": "date_histogram"
+            },
+            {
+              "enabled": true,
+              "id": "3",
+              "params": {
+                "customLabel": "Type",
+                "field": "dns.type",
+                "missingBucket": false,
+                "missingBucketLabel": "Missing",
+                "order": "desc",
+                "orderBy": "1",
+                "otherBucket": false,
+                "otherBucketLabel": "Other",
+                "size": 5
+              },
+              "schema": "group",
+              "type": "terms"
+            },
+            {
+              "enabled": true,
+              "id": "4",
+              "params": {
+                "customLabel": "Domain",
+                "field": "event.dataset",
+                "missingBucket": true,
+                "missingBucketLabel": "Missing",
+                "order": "desc",
+                "orderBy": "1",
+                "otherBucket": true,
+                "otherBucketLabel": "Other",
+                "size": 5
+              },
+              "schema": "group",
+              "type": "terms"
+            }
+          ],
+          "params": {
+            "addLegend": true,
+            "addTimeMarker": false,
+            "addTooltip": true,
+            "categoryAxes": [
+              {
+                "id": "CategoryAxis-1",
+                "labels": {
+                  "filter": true,
+                  "show": true,
+                  "truncate": 100
+                },
+                "position": "bottom",
+                "scale": {
+                  "type": "linear"
+                },
+                "show": true,
+                "style": {},
+                "title": {},
+                "type": "category"
+              }
+            ],
+            "dimensions": {
+              "series": [
+                {
+                  "accessor": 1,
+                  "aggType": "terms",
+                  "format": {
+                    "id": "terms",
+                    "params": {
+                      "id": "string",
+                      "missingBucketLabel": "Missing",
+                      "otherBucketLabel": "Other"
+                    }
+                  },
+                  "params": {}
+                },
+                {
+                  "accessor": 2,
+                  "aggType": "terms",
+                  "format": {
+                    "id": "terms",
+                    "params": {
+                      "id": "string",
+                      "missingBucketLabel": "Missing",
+                      "otherBucketLabel": "Other"
+                    }
+                  },
+                  "params": {}
+                }
+              ],
+              "x": {
+                "accessor": 0,
+                "aggType": "date_histogram",
+                "format": {
+                  "id": "date",
+                  "params": {
+                    "pattern": "HH:mm:ss"
+                  }
+                },
+                "params": {
+                  "bounds": {
+                    "max": "2020-01-15T17:31:46.648Z",
+                    "min": "2020-01-15T17:16:46.645Z"
+                  },
+                  "date": true,
+                  "format": "HH:mm:ss",
+                  "interval": "PT30S",
+                  "intervalESUnit": "s",
+                  "intervalESValue": 30
+                }
+              },
+              "y": [
+                {
+                  "accessor": 3,
+                  "aggType": "cardinality",
+                  "format": {
+                    "id": "number"
+                  },
+                  "params": {}
+                }
+              ]
+            },
+            "grid": {
+              "categoryLines": false
+            },
+            "labels": {},
+            "legendPosition": "right",
+            "seriesParams": [
+              {
+                "data": {
+                  "id": "1",
+                  "label": "Entries"
+                },
+                "drawLinesBetweenPoints": true,
+                "interpolate": "linear",
+                "lineWidth": 2,
+                "mode": "normal",
+                "show": true,
+                "showCircles": true,
+                "type": "line",
+                "valueAxis": "ValueAxis-1"
+              }
+            ],
+            "thresholdLine": {
+              "color": "#34130C",
+              "show": false,
+              "style": "full",
+              "value": 10,
+              "width": 1
+            },
+            "times": [],
+            "type": "line",
+            "valueAxes": [
+              {
+                "id": "ValueAxis-1",
+                "labels": {
+                  "filter": false,
+                  "rotate": 0,
+                  "show": true,
+                  "truncate": 100
+                },
+                "name": "LeftAxis-1",
+                "position": "left",
+                "scale": {
+                  "mode": "normal",
+                  "type": "linear"
+                },
+                "show": true,
+                "style": {},
+                "title": {
+                  "text": "Entries"
+                },
+                "type": "value"
+              }
+            ]
+          },
+          "title": "Unique Entry Count Per Type Over Time [Dnsbeat A/AAAA]",
+          "type": "line"
+        }
+      },
+      "id": "2ad733a0-37bb-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "visualization": "7.4.2"
+      },
+      "references": [
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "type": "visualization",
+      "updated_at": "2020-01-15T17:41:59.542Z",
+      "version": "WzEzNiwxXQ=="
+    },
+    {
+      "attributes": {
+        "description": "A count of all A and AAAA entries.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "savedSearchRefName": "search_0",
+        "title": "Entry Count [Dnsbeat A/AAAA]",
+        "uiStateJSON": {},
+        "version": 1,
+        "visState": {
+          "aggs": [
+            {
+              "enabled": true,
+              "id": "1",
+              "params": {
+                "customLabel": "Monitored Entries"
+              },
+              "schema": "metric",
+              "type": "count"
+            }
+          ],
+          "params": {
+            "addLegend": false,
+            "addTooltip": true,
+            "dimensions": {
+              "metrics": [
+                {
+                  "accessor": 0,
+                  "format": {
+                    "id": "number",
+                    "params": {}
+                  },
+                  "type": "vis_dimension"
+                }
+              ]
+            },
+            "metric": {
+              "colorSchema": "Green to Red",
+              "colorsRange": [
+                {
+                  "from": 0,
+                  "to": 10000,
+                  "type": "range"
+                }
+              ],
+              "invertColors": false,
+              "labels": {
+                "show": true
+              },
+              "metricColorMode": "None",
+              "percentageMode": false,
+              "style": {
+                "bgColor": false,
+                "bgFill": "#000",
+                "fontSize": 60,
+                "labelColor": false,
+                "subText": ""
+              },
+              "useRanges": false
+            },
+            "type": "metric"
+          },
+          "title": "Entry Count [Dnsbeat A/AAAA]",
+          "type": "metric"
+        }
+      },
+      "id": "76bb7f00-37bc-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "visualization": "7.4.2"
+      },
+      "references": [
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "type": "visualization",
+      "updated_at": "2020-01-15T17:43:54.284Z",
+      "version": "WzE0MCwxXQ=="
+    },
+    {
+      "attributes": {
+        "description": "A count of unique A and AAAA entries.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "savedSearchRefName": "search_0",
+        "title": "Unique Entry Count [Dnsbeat A/AAAA]",
+        "uiStateJSON": {},
+        "version": 1,
+        "visState": {
+          "aggs": [
+            {
+              "enabled": true,
+              "id": "1",
+              "params": {
+                "customLabel": "Monitored Unique Entries",
+                "field": "event.original"
+              },
+              "schema": "metric",
+              "type": "cardinality"
+            }
+          ],
+          "params": {
+            "addLegend": false,
+            "addTooltip": true,
+            "dimensions": {
+              "metrics": [
+                {
+                  "accessor": 0,
+                  "format": {
+                    "id": "number",
+                    "params": {}
+                  },
+                  "type": "vis_dimension"
+                }
+              ]
+            },
+            "metric": {
+              "colorSchema": "Green to Red",
+              "colorsRange": [
+                {
+                  "from": 0,
+                  "to": 10000,
+                  "type": "range"
+                }
+              ],
+              "invertColors": false,
+              "labels": {
+                "show": true
+              },
+              "metricColorMode": "None",
+              "percentageMode": false,
+              "style": {
+                "bgColor": false,
+                "bgFill": "#000",
+                "fontSize": 60,
+                "labelColor": false,
+                "subText": ""
+              },
+              "useRanges": false
+            },
+            "type": "metric"
+          },
+          "title": "Unique Entry Count [Dnsbeat A/AAAA]",
+          "type": "metric"
+        }
+      },
+      "id": "932adaa0-37bc-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "visualization": "7.4.2"
+      },
+      "references": [
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "type": "visualization",
+      "updated_at": "2020-01-15T17:41:12.277Z",
+      "version": "WzEzNSwxXQ=="
+    },
+    {
+      "attributes": {
+        "description": "A repartition of A and AAAA entry types.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "savedSearchRefName": "search_0",
+        "title": "Unique Entry Type Repartition [Dnsbeat A/AAAA]",
+        "uiStateJSON": {},
+        "version": 1,
+        "visState": {
+          "aggs": [
+            {
+              "enabled": true,
+              "id": "1",
+              "params": {
+                "customLabel": "Entries",
+                "field": "event.original"
+              },
+              "schema": "metric",
+              "type": "cardinality"
+            },
+            {
+              "enabled": true,
+              "id": "2",
+              "params": {
+                "customLabel": "Type",
+                "field": "dns.type",
+                "missingBucket": true,
+                "missingBucketLabel": "Missing",
+                "order": "desc",
+                "orderBy": "1",
+                "otherBucket": true,
+                "otherBucketLabel": "Other",
+                "size": 5
+              },
+              "schema": "segment",
+              "type": "terms"
+            }
+          ],
+          "params": {
+            "addLegend": true,
+            "addTooltip": true,
+            "dimensions": {
+              "buckets": [
+                {
+                  "accessor": 0,
+                  "aggType": "terms",
+                  "format": {
+                    "id": "terms",
+                    "params": {
+                      "id": "string",
+                      "missingBucketLabel": "Missing",
+                      "otherBucketLabel": "Other"
+                    }
+                  },
+                  "params": {}
+                }
+              ],
+              "metric": {
+                "accessor": 1,
+                "aggType": "cardinality",
+                "format": {
+                  "id": "number"
+                },
+                "params": {}
+              }
+            },
+            "isDonut": true,
+            "labels": {
+              "last_level": true,
+              "show": false,
+              "truncate": 100,
+              "values": true
+            },
+            "legendPosition": "right",
+            "type": "pie"
+          },
+          "title": "Unique Entry Type Repartition [Dnsbeat A/AAAA]",
+          "type": "pie"
+        }
+      },
+      "id": "d19079e0-37bb-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "visualization": "7.4.2"
+      },
+      "references": [
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "type": "visualization",
+      "updated_at": "2020-01-15T17:40:47.436Z",
+      "version": "WzEzNCwxXQ=="
+    },
+    {
+      "attributes": {
+        "description": "A count of unique IPv4 and IPv6 targets per unique name.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "savedSearchRefName": "search_0",
+        "title": "Entry Target Count [Dnsbeat A/AAAA]",
+        "uiStateJSON": {
+          "vis": {
+            "params": {
+              "sort": {
+                "columnIndex": null,
+                "direction": null
+              }
+            }
+          }
+        },
+        "version": 1,
+        "visState": {
+          "aggs": [
+            {
+              "enabled": true,
+              "id": "1",
+              "params": {
+                "customLabel": "Targets",
+                "field": "dns.rdata.ip"
+              },
+              "schema": "metric",
+              "type": "cardinality"
+            },
+            {
+              "enabled": true,
+              "id": "2",
+              "params": {
+                "customLabel": "Domain",
+                "field": "dns.name",
+                "missingBucket": true,
+                "missingBucketLabel": "Missing",
+                "order": "desc",
+                "orderBy": "1",
+                "otherBucket": true,
+                "otherBucketLabel": "Other",
+                "size": 100
+              },
+              "schema": "bucket",
+              "type": "terms"
+            }
+          ],
+          "params": {
+            "dimensions": {
+              "buckets": [
+                {
+                  "accessor": 0,
+                  "aggType": "terms",
+                  "format": {
+                    "id": "terms",
+                    "params": {
+                      "id": "string",
+                      "missingBucketLabel": "Missing",
+                      "otherBucketLabel": "Other"
+                    }
+                  },
+                  "params": {}
+                }
+              ],
+              "metrics": [
+                {
+                  "accessor": 1,
+                  "aggType": "cardinality",
+                  "format": {
+                    "id": "number"
+                  },
+                  "params": {}
+                }
+              ]
+            },
+            "perPage": 10,
+            "percentageCol": "",
+            "showMetricsAtAllLevels": false,
+            "showPartialRows": false,
+            "showTotal": false,
+            "sort": {
+              "columnIndex": null,
+              "direction": null
+            },
+            "totalFunc": "sum"
+          },
+          "title": "Entry Target Count [Dnsbeat A/AAAA]",
+          "type": "table"
+        }
+      },
+      "id": "77590210-37bd-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "visualization": "7.4.2"
+      },
+      "references": [
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "type": "visualization",
+      "updated_at": "2020-01-15T17:43:34.815Z",
+      "version": "WzEzOSwxXQ=="
+    },
+    {
+      "attributes": {
+        "description": "A count of unique names per unique IPv4 and IPv6.",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [],
+            "query": {
+              "language": "kuery",
+              "query": ""
+            }
+          }
+        },
+        "savedSearchRefName": "search_0",
+        "title": "Entry Target Source Count [Dnsbeat A/AAAA]",
+        "uiStateJSON": {
+          "vis": {
+            "params": {
+              "sort": {
+                "columnIndex": null,
+                "direction": null
+              }
+            }
+          }
+        },
+        "version": 1,
+        "visState": {
+          "aggs": [
+            {
+              "enabled": true,
+              "id": "1",
+              "params": {
+                "customLabel": "Sources",
+                "field": "dns.name"
+              },
+              "schema": "metric",
+              "type": "cardinality"
+            },
+            {
+              "enabled": true,
+              "id": "2",
+              "params": {
+                "customLabel": "IP",
+                "field": "dns.rdata.ip",
+                "missingBucket": true,
+                "missingBucketLabel": "Missing",
+                "order": "desc",
+                "orderBy": "1",
+                "otherBucket": true,
+                "otherBucketLabel": "Other",
+                "size": 100
+              },
+              "schema": "bucket",
+              "type": "terms"
+            }
+          ],
+          "params": {
+            "dimensions": {
+              "buckets": [
+                {
+                  "accessor": 0,
+                  "aggType": "terms",
+                  "format": {
+                    "id": "terms",
+                    "params": {
+                      "id": "ip",
+                      "missingBucketLabel": "Missing",
+                      "otherBucketLabel": "Other"
+                    }
+                  },
+                  "params": {}
+                }
+              ],
+              "metrics": [
+                {
+                  "accessor": 1,
+                  "aggType": "count",
+                  "format": {
+                    "id": "number"
+                  },
+                  "params": {}
+                }
+              ]
+            },
+            "perPage": 10,
+            "percentageCol": "",
+            "showMetricsAtAllLevels": false,
+            "showPartialRows": false,
+            "showTotal": false,
+            "sort": {
+              "columnIndex": null,
+              "direction": null
+            },
+            "totalFunc": "sum"
+          },
+          "title": "Entry Target Source Count [Dnsbeat A/AAAA]",
+          "type": "table"
+        }
+      },
+      "id": "b750bd90-37bd-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "visualization": "7.4.2"
+      },
+      "references": [
+        {
+          "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "type": "visualization",
+      "updated_at": "2020-01-15T17:42:47.801Z",
+      "version": "WzEzOCwxXQ=="
+    },
+    {
+      "attributes": {
+        "columns": [
+          "dns.name",
+          "dns.rdata.ip"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": {
+            "filter": [
+              {
+                "$state": {
+                  "store": "appState"
+                },
+                "meta": {
+                  "alias": null,
+                  "disabled": false,
+                  "indexRefName": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                  "key": "dns.type",
+                  "negate": false,
+                  "params": [
+                    "A",
+                    "AAAA"
+                  ],
+                  "type": "phrases",
+                  "value": "A, AAAA"
+                },
+                "query": {
+                  "bool": {
+                    "minimum_should_match": 1,
+                    "should": [
+                      {
+                        "match_phrase": {
+                          "dns.type": "A"
+                        }
+                      },
+                      {
+                        "match_phrase": {
+                          "dns.type": "AAAA"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "highlightAll": true,
+            "indexRefName": "kibanaSavedObjectMeta.searchSourceJSON.index",
+            "query": {
+              "language": "kuery",
+              "query": ""
+            },
+            "version": true
+          }
+        },
+        "sort": [
+          [
+            "@timestamp",
+            "desc"
+          ]
+        ],
+        "title": "All Entries [Dnsbeat A/AAAA]",
+        "version": 1
+      },
+      "id": "e34c7e60-37b9-11ea-bc78-59a1f2dd0c3f",
+      "migrationVersion": {
+        "search": "7.4.0"
+      },
+      "references": [
+        {
+          "id": "dnsbeat-*",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "dnsbeat-*",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        }
+      ],
+      "type": "search",
+      "updated_at": "2020-01-15T17:27:29.494Z",
+      "version": "WzExNSwxXQ=="
+    }
+  ],
+  "version": "7.5.1"
+}
