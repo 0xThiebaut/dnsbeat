@@ -1,0 +1,24 @@
+Error exporting dashboard: error exporting dashboard: Not found
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/kibana.extractError
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/kibana/client.go:73
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/kibana.(*Connection).Request
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/kibana/client.go:175
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/kibana.(*Client).GetDashboard
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/kibana/client.go:285
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/dashboards.Export
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/dashboards/export.go:54
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/cmd/export.GenDashboardCmd.func1
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/libbeat/cmd/export/dashboard.go:79
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/vendor/github.com/spf13/cobra.(*Command).execute
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/vendor/github.com/spf13/cobra/command.go:704
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/vendor/github.com/spf13/cobra.(*Command).ExecuteC
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/vendor/github.com/spf13/cobra/command.go:785
+github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/vendor/github.com/spf13/cobra.(*Command).Execute
+	/go/src/github.com/0xThiebaut/dnsbeat/vendor/github.com/elastic/beats/vendor/github.com/spf13/cobra/command.go:738
+main.main
+	/go/src/github.com/0xThiebaut/dnsbeat/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:200
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1337.
+
