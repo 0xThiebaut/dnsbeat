@@ -43,6 +43,7 @@ func rr(resource dns.RR) map[string]interface{} {
 	result := map[string]interface{}{
 		"name": resource.Header().Name,
 		"type": dns.TypeToString[resource.Header().Rrtype],
+		"ttl":  resource.Header().Ttl,
 	}
 	tld, sld := name(resource.Header().Name)
 	if len(tld) > 0 {
