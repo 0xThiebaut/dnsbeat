@@ -2,6 +2,12 @@
 
 An Elasticsearch Beat to monitor DNS zones through customizable zone transfers.
 
+![Kibana Dashboards](images/kibana-dashboards.png)
+
+Dnsbeat ships with default dashboards and can be used to detect DNS anomalies as introduced in the *"[Automated Anomaly-Detection in DNS Zones](https://thiebaut.dev/articles/automated-anomaly-detection-in-dns-records/)"* article.
+
+![Kibana Rare Mail Record](images/kibana-rare-mail-record.png)
+
 ## Usage
 
 Dnsbeat supports two methods of zone collection which is done either through [zone transfers](https://en.wikipedia.org/wiki/DNS_zone_transfer) or using local zone files.
